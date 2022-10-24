@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Consolas';
+    src: url('./assets/fonts/Consolas.woff')
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url('./assets/fonts/Aneti.otf')
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #010213;
+    position: relative;
+}
+
+body{
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.circle h2{
+    color: #ffffff;
+    font-family: 'Font';
+    font-size: 70px;
+    text-align: center;
+    padding-top: 117px;
+    background-color: transparent;
+}
+
+.circle h5{
+    color: #4D9F91;
+    font-family: 'Consolas';
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 37px;
+    background-color: transparent;
+}
+
+.circle {
+    position: absolute;
+    border:2px solid #707070;    
+    height:400px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:400px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    bottom: 50%;
+    }
+
+.circle:hover {
+    position: absolute;
+    border:2px solid #990c0c;    
+    height:400px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:400px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    bottom: 50%;
+    }
+
